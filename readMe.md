@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# Netfeed
-=======
+
 # NEATFEED
->>>>>>> fa535a3a1bda642870665d671526302975b01b79
+
 
 This is a full stack responsive MERN Social media App
 
