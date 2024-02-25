@@ -1,4 +1,4 @@
-# Netfeed
+# NEATFEED
 
 This is a full stack responsive MERN Social media App
 
