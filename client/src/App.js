@@ -13,6 +13,23 @@ function App() {
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   const isAuth = Boolean(useSelector((state) => state.token));
 
+  const backendUrl = 'https://neatfeed-server.vercel.app';
+
+async function fetchData() {
+  try {
+    const response = await fetch(`${backendUrl}/`);
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+fetchData();
+
   return (
     <div className="app">
       <BrowserRouter>
