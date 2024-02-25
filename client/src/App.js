@@ -17,7 +17,7 @@ function App() {
 
 async function fetchData() {
   try {
-    const response = await fetch(`${backendUrl}/`);
+    const response = await fetch(`${backendUrl}`);
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
