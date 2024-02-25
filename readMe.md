@@ -2,6 +2,8 @@
 # NEATFEED
 
 The deployed app can be accessed at the link: https://neatfeed-client.vercel.app/
+
+
 This is a full stack responsive MERN Social media App
 
 * This social media web application consists of a registration page with complete validation along with functionality to upload a user image for their profiles.
