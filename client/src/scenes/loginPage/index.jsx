@@ -25,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to NEATFEED, the Social Media for Neat Freaks, define & run with you aesthetics !
+          Welcome to NEATFEED, the Social Media for Neat Freaks, define & run with your aesthetics !
         </Typography>
         <Form />
       </Box>
