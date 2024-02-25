@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 app.use (cors (
   {
-  origin: ["https://neatfeed-server.vercel.app"],
+  origin: ["https://neatfeed-client.vercel.app"],
   methods: ["POST", "GET"],
   credentials: true
   }
